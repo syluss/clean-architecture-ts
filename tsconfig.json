@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./dist",
+    "module": "nodenext",
+    "target": "ES2022",
+    "types": [],
+    "skipLibCheck": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "isolatedModules": true
+  },
+  "include": ["src/**/*.ts", "main.ts"],
+  "exclude": ["node_modules", "dist", "tests"]
+}
